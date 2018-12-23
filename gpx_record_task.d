@@ -1,0 +1,9 @@
+gpx_record_task.o: gpx_record\gpx_record_task.c
+gpx_record_task.o: C:\Keil\ARM\RV31\INC\stdio.h
+gpx_record_task.o: ..\Libraries\datetime\datetime.h
+gpx_record_task.o: ..\Libraries\fatfs\ff.h
+gpx_record_task.o: ..\Libraries\fatfs\integer.h
+gpx_record_task.o: C:\Keil\ARM\RV31\INC\stdbool.h
+gpx_record_task.o: .\GPS\nmea_parse.h
+gpx_record_task.o: .\let_us_go\let_us_go.h
+gpx_record_task.o: gpx_record\gpx_record_task.h

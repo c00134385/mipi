@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\øÏ≈Ã\CarBetter\iTracker\sdk_v1.0b\prj_iTracker\create_lib.uvproj
+Project File Date:  08/30/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling gps_algorithm.c...
+GPS\gps_algorithm.h(4): error:  #5: cannot open source input file "integer.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling gps_algorithm.c...
+creating Library...
+"gps_algorithm.lib" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,631 @@
+Build target 'USB_MSC'
+compiling stm32f10x_it.c...
+--- Error: failed to execute 'arm-none-eabi-gcc'
+Target not created
+Build target 'USB_MSC'
+compiling stm32f10x_it.c...
+--- Error: failed to execute 'arm-none-eabi-gcc'
+Target not created
+Build target 'USB_MSC'
+compiling stm32f10x_it.c...
+compiling main.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling w25xx.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling hw_config.c...
+Mass_Storage\hw_config.c(18): error:  #5: cannot open source input file "hw_config.h": No such file or directory
+compiling mass_mal.c...
+Mass_Storage\mass_mal.c(17): error:  #5: cannot open source input file "platform_config.h": No such file or directory
+compiling memory.c...
+Mass_Storage\memory.c(18): error:  #5: cannot open source input file "memory.h": No such file or directory
+compiling scsi_data.c...
+Mass_Storage\scsi_data.c(17): error:  #5: cannot open source input file "usb_scsi.h": No such file or directory
+compiling usb_bot.c...
+Mass_Storage\usb_bot.c(17): error:  #5: cannot open source input file "usb_scsi.h": No such file or directory
+compiling usb_desc.c...
+Mass_Storage\usb_desc.c(17): error:  #5: cannot open source input file "usb_desc.h": No such file or directory
+compiling usb_endp.c...
+Mass_Storage\usb_endp.c(17): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_istr.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling usb_prop.c...
+Mass_Storage\usb_prop.c(17): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_pwr.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling usb_scsi.c...
+Mass_Storage\usb_scsi.c(17): error:  #5: cannot open source input file "hw_config.h": No such file or directory
+compiling otgd_fs_cal.c...
+compiling otgd_fs_dev.c...
+compiling otgd_fs_int.c...
+compiling otgd_fs_pcd.c...
+compiling usb_core.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c(17): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_init.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c(17): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_int.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c(18): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_mem.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c(18): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_regs.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c(18): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling usb_sil.c...
+..\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c(18): error:  #5: cannot open source input file "usb_lib.h": No such file or directory
+compiling diskio.c...
+compiling ff.c...
+..\Libraries\fatfs\ff.c(858): warning:  #550-D: variable "lfen" was set but never used
+..\Libraries\fatfs\ff.c(858): warning:  #550-D: variable "ord" was set but never used
+..\Libraries\fatfs\ff.c(858): warning:  #550-D: variable "sum" was set but never used
+..\Libraries\fatfs\ff.c(921): warning:  #550-D: variable "ord" was set but never used
+..\Libraries\fatfs\ff.c(921): warning:  #550-D: variable "sum" was set but never used
+..\Libraries\fatfs\ff.c(1993): warning:  #550-D: variable "tmp" was set but never used
+..\Libraries\fatfs\ff.c(3045): warning:  #177-D: variable "f2" was declared but never referenced
+..\Libraries\fatfs\ff.c(3046): warning:  #177-D: variable "buff" was declared but never referenced
+..\Libraries\fatfs\ff.c(3046): warning:  #177-D: variable "i" was declared but never referenced
+..\Libraries\fatfs\ff.c(3047): warning:  #177-D: variable "bw" was declared but never referenced
+compiling uart1.c...
+..\Libraries\UART\uart1.c(79): error:  #20: identifier "USART1_IRQn" is undefined
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling uart2.c...
+..\Libraries\UART\uart2.c(13): error:  #5: cannot open source input file "systick.h": No such file or directory
+compiling uart3.c...
+..\Libraries\UART\uart3.c(95): error:  #20: identifier "USART3_IRQn" is undefined
+..\Libraries\UART\uart3.c(116): warning:  #177-D: variable "tmp" was declared but never referenced
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling misc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(23): error:  #5: cannot open source input file "misc.h": No such file or directory
+compiling stm32f10x_bkp.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(133): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(137): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(137): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(150): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(150): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(150): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(150): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(163): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(163): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(163): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(163): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(179): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(181): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(186): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(186): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(200): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(202): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(207): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(207): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(221): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(221): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(223): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(223): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(228): error:  #20: identifier "tmp" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(231): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(231): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(231): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(240): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(240): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c(242): error:  #20: identifier "__IO" is undefined
+compiling stm32f10x_can.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(99): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(99): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(114): error:  #147-D: declaration is incompatible with "void CAN_DeInit(void)" (declared at line 243 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_can.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(119): error:  #20: identifier "CAN1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(122): error:  #20: identifier "RCC_APB1Periph_CAN1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(129): error:  #20: identifier "RCC_APB1Periph_CAN2" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(144): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(144): error:  #147-D: declaration is incompatible with "u8 CAN_Init(CAN_InitTypeDef *)" (declared at line 244 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_can.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(146): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(147): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(163): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(163): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(166): error:  #20: identifier "CAN_MCR_INRQ" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(169): error:  #20: identifier "CAN_MSR_INAK" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(169): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(184): error:  #20: identifier "CAN_MCR_TTCM" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(188): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(194): error:  #20: identifier "CAN_MCR_ABOM" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(198): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(204): error:  #20: identifier "CAN_MCR_AWUM" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(208): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(214): error:  #20: identifier "CAN_MCR_NART" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(218): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(224): error:  #20: identifier "CAN_MCR_RFLM" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(228): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(234): error:  #20: identifier "CAN_MCR_TXFP" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(238): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(242): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(242): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c(243): error:  #18: expected a ")"
+compiling stm32f10x_cec.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c(22): error:  #5: cannot open source input file "stm32f10x_cec.h": No such file or directory
+compiling stm32f10x_crc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(85): error:  #20: identifier "CRC_CR_RESET" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(93): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(93): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(106): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(106): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(106): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(108): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(122): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(132): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c(142): error:  #20: identifier "uint8_t" is undefined
+compiling stm32f10x_dbgmcu.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c(83): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c(93): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c(95): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c(95): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c(133): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_dma.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(113): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(113): error:  #20: identifier "DMA_CCR1_EN" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(130): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(130): error:  #20: identifier "DMA_ISR_GIF1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(130): error:  #20: identifier "DMA_ISR_TCIF1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(130): error:  #20: identifier "DMA_ISR_HTIF1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(130): error:  #20: identifier "DMA_ISR_TEIF1" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(135): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(135): error:  #20: identifier "DMA_ISR_GIF2" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(135): error:  #20: identifier "DMA_ISR_TCIF2" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(135): error:  #20: identifier "DMA_ISR_HTIF2" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(135): error:  #20: identifier "DMA_ISR_TEIF2" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(140): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(140): error:  #20: identifier "DMA_ISR_GIF3" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(140): error:  #20: identifier "DMA_ISR_TCIF3" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(140): error:  #20: identifier "DMA_ISR_HTIF3" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(140): error:  #20: identifier "DMA_ISR_TEIF3" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(145): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(145): error:  #20: identifier "DMA_ISR_GIF4" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(145): error:  #20: identifier "DMA_ISR_TCIF4" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(145): error:  #20: identifier "DMA_ISR_HTIF4" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(145): error:  #20: identifier "DMA_ISR_TEIF4" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(150): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(150): error:  #20: identifier "DMA_ISR_GIF5" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(150): error:  #20: identifier "DMA_ISR_TCIF5" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(150): error:  #20: identifier "DMA_ISR_HTIF5" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(150): error:  #20: identifier "DMA_ISR_TEIF5" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(155): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(155): error:  #20: identifier "DMA_ISR_GIF6" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c(155): error:  #20: identifier "DMA_ISR_TCIF6" is undefined
+compiling stm32f10x_exti.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(102): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(110): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(120): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(120): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(120): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(138): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(138): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(146): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(146): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(146): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(158): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(158): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(170): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(185): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(191): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(191): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(208): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(223): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(226): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(231): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(231): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(231): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c(248): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_flash.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(253): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(255): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(264): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(264): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(280): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(286): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(286): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(299): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(305): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(305): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(321): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(321): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(322): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(342): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(342): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(343): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(374): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(374): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(394): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(394): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(418): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(463): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(463): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(468): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(470): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(473): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(476): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(525): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(525): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(529): error:  #18: expected a ")"
+compiling stm32f10x_fsmc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(101): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(128): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(201): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(201): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(212): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(216): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(221): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(227): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(240): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(245): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(262): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(282): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(282): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(288): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(291): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(297): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(300): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(347): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(347): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(350): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(353): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(356): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(359): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(362): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(365): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(368): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(385): error:  #136: struct "<unnamed>" has no field "FSMC_AsynchronousWait"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(385): error:  #20: identifier "FSMC_AsynchronousWait_Disable" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(472): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(480): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(480): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(485): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(485): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(498): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(508): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(508): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(512): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(512): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c(520): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_gpio.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(174): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(175): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(182): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(182): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(182): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(183): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(183): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(188): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(192): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(197): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(204): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(211): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(218): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(232): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(239): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(246): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(251): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(280): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(280): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(282): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(288): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(288): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(290): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(290): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(294): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(294): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(296): warning:  #1166-D: returning pointer to local variable
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(304): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(309): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(309): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(319): error:  #20: identifier "uint8_t" is undefined
+compiling stm32f10x_i2c.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(192): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(193): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(194): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(209): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(209): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(221): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(259): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(262): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(265): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(267): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(267): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(267): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(273): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(279): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(283): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(283): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(329): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(329): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(334): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(334): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(353): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(353): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(358): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(358): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(377): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(377): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(382): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(382): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(401): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c(401): error:  #18: expected a ")"
+compiling stm32f10x_iwdg.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(91): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(111): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(124): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(139): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(139): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(149): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(149): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(160): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(165): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c(165): error:  #18: expected a ")"
+compiling stm32f10x_pwr.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(127): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(127): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(127): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(127): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(140): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(140): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(140): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(140): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(157): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(159): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(164): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(164): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(181): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(181): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(181): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(181): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(196): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(196): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(198): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(206): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(206): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(212): error:  #20: identifier "SCB_SCR_SLEEPDEEP" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(227): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(238): error:  #20: identifier "PWR_CR_CWUF" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(240): error:  #20: identifier "PWR_CR_PDDS" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(242): error:  #20: identifier "SCB_SCR_SLEEPDEEP" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(260): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(266): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(266): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c(286): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_rcc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(192): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(192): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(219): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(219): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(223): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(229): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(232): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(235): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(269): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(275): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(275): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(277): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(283): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(288): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(288): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(305): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(305): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(313): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(314): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(314): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(333): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(335): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(340): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(340): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(342): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(357): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(357): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(357): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_rtc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(89): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(101): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(101): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(113): error:  #20: identifier "RTC_CRL_CNF" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(124): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(124): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(132): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(134): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(136): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(144): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(150): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(150): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(159): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(166): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(166): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(168): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(177): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(183): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(183): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(192): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(194): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(195): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(195): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(197): warning:  #1166-D: returning pointer to local variable
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(209): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(209): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(225): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(225): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(227): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(243): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c(250): error:  #20: identifier "uint16_t" is undefined
+compiling stm32f10x_sdio.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(182): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(196): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(196): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(239): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(239): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(239): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(239): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(250): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(255): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(255): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(268): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(270): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(270): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(306): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(335): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(335): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(335): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(335): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(347): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(363): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(363): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(368): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(396): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(398): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(411): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(411): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(413): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(413): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(418): error:  #20: identifier "tmp" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c(420): error:  #20: identifier "__IO" is undefined
+compiling stm32f10x_spi.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(159): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(179): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(179): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(188): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(188): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(191): warning:  #12-D: parsing restarts here after previous syntax error
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(196): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(220): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(221): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(223): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(236): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(236): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(245): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(246): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(264): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(264): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(335): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(353): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(356): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(358): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(434): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(434): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(439): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(439): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(458): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(458): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(463): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(463): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(481): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(483): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(493): error:  #20: identifier "uint16_t" is undefined
+compiling stm32f10x_tim.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(76): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(76): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(77): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(78): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(78): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(79): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(80): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(80): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(81): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(82): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(82): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(83): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(166): error:  #20: identifier "TIM9" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(168): error:  #20: identifier "RCC_APB2Periph_TIM9" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(171): error:  #20: identifier "TIM10" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(173): error:  #20: identifier "RCC_APB2Periph_TIM10" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(176): error:  #20: identifier "TIM11" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(178): error:  #20: identifier "RCC_APB2Periph_TIM11" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(181): error:  #20: identifier "TIM12" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(183): error:  #20: identifier "RCC_APB1Periph_TIM12" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(186): error:  #20: identifier "TIM13" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(188): error:  #20: identifier "RCC_APB1Periph_TIM13" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(191): error:  #20: identifier "TIM14" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(193): error:  #20: identifier "RCC_APB1Periph_TIM14" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(196): error:  #20: identifier "TIM15" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(198): error:  #20: identifier "RCC_APB2Periph_TIM15" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(201): error:  #20: identifier "TIM16" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(203): error:  #20: identifier "RCC_APB2Periph_TIM16" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(208): error:  #20: identifier "TIM17" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c(210): error:  #20: identifier "RCC_APB2Periph_TIM17" is undefined
+compiling stm32f10x_usart.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(175): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(176): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(177): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(178): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(194): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(194): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(199): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(199): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(202): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(205): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(210): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(215): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(218): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(223): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(228): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(261): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(261): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(265): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(265): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(269): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(301): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(312): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(312): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(318): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(318): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(321): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(357): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(357): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(362): error:  #20: identifier "uint16_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(362): error:  #18: expected a ")"
+compiling stm32f10x_wwdg.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(117): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(119): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(123): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(123): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(136): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(138): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(138): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(144): error:  #20: identifier "tmpreg" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(144): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(147): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(147): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(160): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(160): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(160): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(160): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(169): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(175): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(175): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(184): error:  #20: identifier "uint8_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(188): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(188): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(208): error:  #20: identifier "uint32_t" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c(208): error:  #65: expected a ";"
+assembling startup_stm32f10x_hd.s...
+compiling gps_algorithm.c...
+GPS\gps_algorithm.c(10): error:  #5: cannot open source input file "integer.h": No such file or directory
+compiling gps_receive_task.c...
+GPS\gps_receive_task.c(13): error:  #5: cannot open source input file "integer.h": No such file or directory
+compiling systick.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling my_string.c...
+..\Libraries\string\my_string.c(4): error:  #5: cannot open source input file "integer.h": No such file or directory
+compiling datetime.c...
+..\Libraries\datetime\datetime.c(2): error:  #5: cannot open source input file "integer.h": No such file or directory
+Target not created
