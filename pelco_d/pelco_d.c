@@ -25,6 +25,15 @@
 
 static int input_buf_index = 0;
 static unsigned char input_buf[PELCO_D_INPUT_BUFFER_SIZE];
+static unsigned char reply_for_1080P30[] = {0xFF,0x01,0x09,0x00,0x00,0x02,0x0c};
+static unsigned char reply_for_1080P25[] = {0xFF,0x01,0x09,0x00,0x00,0x03,0x0d};
+static unsigned char reply_for_720P60[] = {0xFF,0x01,0x09,0x00,0x00,0x06,0x10};
+static unsigned char reply_for_720P50[] = {0xFF,0x01,0x09,0x00,0x00,0x07,0x11};
+static unsigned char reply_for_invalid[] = {0xFF,0x01,0x09,0x00,0x00,0x5e,0x68};
+static unsigned char reply_for_test[] = {0xFF,0x01,0x02,0x03,0x04,0x05,0x06};
+static unsigned char reply_for_state_OK[] = {0xFF,0x01,0x0C,0x00,0x00,0x01,0x0E};
+
+
 
 static PELCO_D_MSG_QUEUE_t msg_queue;
 
@@ -33,6 +42,7 @@ void pelco_d_input_byte(unsigned char byte)
 {
     //printf("\r\n byte:%02x ", byte);
     pelco_fill_message(byte);
+    //uart3_sendbf(&byte, 1);
 }
 
 int pelco_d_init(void)
@@ -169,6 +179,7 @@ void pelco_d_handle(PELCO_D_TYPE_e cmd)
             printf("\r\n cmd: PELCO_D_TYPE_STOP");
             sonylens_set_zoom_stop();
             sonylens_set_focus_stop();
+            uart3_sendbf(reply_for_test, PELCO_D_MSG_LEN);
             break;
         case PELCO_D_TYPE_RIGHT:
             printf("\r\n cmd: PELCO_D_TYPE_RIGHT");
@@ -254,17 +265,32 @@ void pelco_d_handle(PELCO_D_TYPE_e cmd)
     
 }
 
-void pelco_handle_cmd(PELCO_CMD_e cmd) {
+void pelco_handle_cmd(PELCO_CMD_e cmd, uint16 data) {
     switch(cmd)
     {
         case PELCO_CMD_F1:
-            sonylens_control_f1();
+            sonylens_control_f1(data);
             break;
         case PELCO_CMD_F2:
-            sonylens_control_f2();
+            {
+                uint8 data = sonylens_general_format_get();
+                if(2 == data) {
+                    uart3_sendbf(reply_for_1080P30, PELCO_D_MSG_LEN);
+                } else if(3 == data) {
+                    uart3_sendbf(reply_for_1080P25, PELCO_D_MSG_LEN);
+                } else if(6 == data) {
+                    uart3_sendbf(reply_for_720P60, PELCO_D_MSG_LEN);
+                } else if(7 == data) {
+                    uart3_sendbf(reply_for_720P50, PELCO_D_MSG_LEN);
+                } else {
+                    uart3_sendbf(reply_for_invalid, PELCO_D_MSG_LEN);
+                }
+            }
             break;
         case PELCO_CMD_F3:
-            sonylens_control_f3();
+            if(sonylens_is_state_ok()) {
+                uart3_sendbf(reply_for_state_OK, PELCO_D_MSG_LEN);
+            }
             break;
         case PELCO_CMD_F4:
             sonylens_control_f4();
@@ -366,7 +392,7 @@ void pelco_d_parse_message(PELCO_D_MSG_t* msg)
         }
     }
 
-    pelco_handle_cmd((PELCO_CMD_e)(comm >> 10));
+    pelco_handle_cmd((PELCO_CMD_e)(comm >> 10), data);
     
 }
 
@@ -430,7 +456,7 @@ void pelco_p_parse_message(PELCO_D_MSG_t* msg)
         }        
     }
 
-    pelco_handle_cmd((PELCO_CMD_e)(comm >> 10));
+    pelco_handle_cmd((PELCO_CMD_e)(comm >> 10), data);
 }
 
 int pelco_d_process(void)

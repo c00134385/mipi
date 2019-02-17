@@ -43,43 +43,6 @@ extern SYSTEM_INFO g_System;
 static char usb_device_onoff;
 void USB_Ctrl(char onoff);
 
-static u8 Lock_Code[4]; // 
-const u32 Lock_Code_Holder = 0x98B4CE33;
-BOOL checkLockCode(void)
-{
-	u32 CpuID[3];
-	u32 code;
-	BOOL ret = false;
-	//get cpu unique id
-	CpuID[0]=*(vu32*)(0x1ffff7e8);
-	CpuID[1]=*(vu32*)(0x1ffff7ec);
-	CpuID[2]=*(vu32*)(0x1ffff7f0);
-	//encrypt algy
-	code=(CpuID[0]>>1)+(CpuID[1]>>2)+(CpuID[2]>>3);
-	code = ~code;
-	code *=3;
-	//printf("\r\n 0x%08x 0x%08x 0x%08x 0x%08x", CpuID[0], CpuID[1], CpuID[2], code);
-	Lock_Code[0] = code >> 24;
-	Lock_Code[1] = code >> 16;
-	Lock_Code[2] = code >> 8;
-	Lock_Code[3] = code;
-
-	//STMFLASH_Read((u32)&Lock_Code_Holder,(u16*)code,4);
-	if(code == Lock_Code_Holder)
-	{
-		//printf("\r\n L:%d write flash...", __LINE__);
-		//STMFLASH_Write((u32)&Lock_Code_Holder,(u16*)Lock_Code,4);
-		//printf("\r\n L:%d write flash finished!", __LINE__);
-		ret = true;
-	}
-	else
-	{
-		//printf("\r\n L:%d Lock_Code_bak:%02x %02x %02x %02x", __LINE__, code[0], code[1], code[2], code[3]);
-		ret = false;
-	}
-	return ret;
-}
-
 
 
 /*----------------------------------------------------------------------------*/
@@ -89,7 +52,6 @@ BOOL checkLockCode(void)
 int main(void)
 {
     int usb_link_cnt;
-    BOOL check = true;
     
     //ARM初始化
     SystemInit();
@@ -111,18 +73,6 @@ int main(void)
 	UART1_Configuration();
 	UART2_Configuration();
 	UART3_Configuration();
-
-
-    //check = checkLockCode();
-    if(!check)
-    {
-        printf("%c", 64);
-        while(1)
-        {
-            printf(version_msg);
-        }
-    }
-    
 	printf(version_msg);
 	
 	//开机电压监测,如果电压过低,只允许运行USB.

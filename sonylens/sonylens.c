@@ -6568,9 +6568,17 @@ void sonylens_remote_navi_right(void)
     sonylens_menu_move_leftright(1);
 }
 
-void sonylens_control_f1(void) {
+void sonylens_control_f1(uint16 data) {
     int count = sonylens_general_format_get_count();
     int index = sonylens_general_format_get();
+    
+    if((2 == data) || (3 == data) || (6 == data) || (7 == data)) {
+        index = data;
+    } else {
+        return;
+    }
+
+    /*
     if(2 == index) {
         index = 3;
     } else if(3 == index) {
@@ -6582,6 +6590,7 @@ void sonylens_control_f1(void) {
     } else {
         index = 2;
     }
+    */
     sonylens_general_format_set(index);
     sonylens_taskstate = SONY_GET_MONITOR_MODE;
     return;
@@ -6619,7 +6628,13 @@ void sonylens_control_f11(void) {
 void sonylens_control_f12(void) {
 }
 
-
+bool sonylens_is_state_ok(void) {
+    if(SONY_IDLE_2 == sonylens_taskstate) {
+        return true;
+    } else {
+        return false;
+    }
+}
 void sonylens_zoom_set_wide_limit(unsigned char value) {
     VISCA_result_e visca_result;
     visca_result = visca_set_register(sonylens_camera_id, SONYLENS_WIDE_LIMIT_ADDR, value);

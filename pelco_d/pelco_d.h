@@ -103,7 +103,7 @@ PELCO_D_MSG_t* pelco_d_pull_message(void);
 void pelco_print_message(PELCO_D_MSG_t* msg);
 bool pelco_d_check_valid(PELCO_D_MSG_t* msg);
 void pelco_d_handle(PELCO_D_TYPE_e cmd);
-void pelco_handle_cmd(PELCO_CMD_e cmd);
+void pelco_handle_cmd(PELCO_CMD_e cmd, uint16 data);
 void pelco_d_parse_message(PELCO_D_MSG_t* msg);
 int pelco_d_process(void);
 

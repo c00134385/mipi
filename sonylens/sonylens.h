@@ -968,7 +968,7 @@ void sonylens_remote_navi_down(void);
 void sonylens_remote_navi_left(void);
 void sonylens_remote_navi_right(void);
 
-void sonylens_control_f1(void);
+void sonylens_control_f1(uint16 data);
 void sonylens_control_f2(void);
 void sonylens_control_f3(void);
 void sonylens_control_f4(void);
@@ -980,6 +980,7 @@ void sonylens_control_f9(void);
 void sonylens_control_f10(void);
 void sonylens_control_f11(void);
 void sonylens_control_f12(void);
+bool sonylens_is_state_ok(void);
 
 
 void sonylens_zoom_set_wide_limit(unsigned char value);
