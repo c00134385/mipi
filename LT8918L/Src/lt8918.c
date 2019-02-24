@@ -988,7 +988,7 @@ void Lt8918_checkPixClk(void){
     u32 freq;
     //读PixClk的值
     SetRegisterBank( 0x80 );
-    HDMI_WriteI2C_Byte( 0x33, 0x0c );
+    HDMI_WriteI2C_Byte( 0x33, 0x2c );
     freq   = HDMI_ReadI2C_Byte( 0x30 );
     freq <<= 8;
     freq  |= HDMI_ReadI2C_Byte( 0x31 );
@@ -1001,7 +1001,7 @@ void Lt8918_checkByteClk(void){
     u32 freq;
     //读PixClk的值
     SetRegisterBank( 0x80 );
-    HDMI_WriteI2C_Byte( 0x33, 0x09 );
+    HDMI_WriteI2C_Byte( 0x33, 0x29 );/////一直在调用
     freq   = HDMI_ReadI2C_Byte( 0x30 );
     freq <<= 8;
     freq  |= HDMI_ReadI2C_Byte( 0x31 );
